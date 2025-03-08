@@ -25,7 +25,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create a Windows 10 Virtual Machine (VM) & a Linux (Ubuntu) VM
 - Ensure both VMs are in the same Virtual Network / Subnet
 - Use Remote Desktop
-- Step 3
+- ping within WireShark
+- (Configuring a Firewall [Network Security Group])
 - Step 4
 
 <h2>Actions and Observations</h2>
@@ -55,3 +56,32 @@ While creating the VM, select the previously created Resource Group and Virtual 
 MSTSC, or Microsoft Terminal Services Client, is a command line interface that allows users to connect to remote computers and virtual machines. It's also the name of the Remote Desktop Connection app in Windows. 
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/FNb2rlg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Within your Windows 10 Virtual Machine, Install Wireshark 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/2QtWmLg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
+Observe ping requests and replies within WireShark
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6FLfmqH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ Azure Firewall
+Inspects network packets for security threats.
+Performs deep packet inspection (DPI) and rule-based filtering.
+Supports FQDN filtering and threat intelligence.
+</p>
+<br />
+
