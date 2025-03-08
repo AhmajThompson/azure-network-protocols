@@ -61,7 +61,7 @@ MSTSC, or Microsoft Terminal Services Client, is a command line interface that a
 <img src="https://i.imgur.com/FNb2rlg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Within your Windows 10 Virtual Machine, Install Wireshark 
+Within your Windows 10 Virtual Machine, Install Wireshark.
 </p>
 <br />
 
@@ -70,7 +70,7 @@ Within your Windows 10 Virtual Machine, Install Wireshark
 </p>
 <p>
 Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
-Observe ping requests and replies within WireShark
+Observe ping requests and replies within WireShark.
 </p>
 <br />
 
